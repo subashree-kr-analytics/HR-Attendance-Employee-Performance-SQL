@@ -1,23 +1,18 @@
-# 📚 Library Management System (SQL Project)
+# 👨‍💼 HR Attendance and Employee Performance Analysis (SQL Project)
 
-## 📌 Project Title
-Library Management System Database
-
----
-
-## 📖 Project Description
-This project is a SQL-based Library Management System designed to manage library operations such as student records, book inventory, and book transactions.  
-It demonstrates database design, relationships, and SQL queries for real-world library management.
+## 📌 Project Description
+This project is a SQL-based HR Analytics system developed to analyze employee attendance and performance records.  
+It helps in tracking attendance patterns, employee productivity, department-wise performance, and operational insights using SQL queries.
 
 ---
 
 ## ⚙️ Features
-- 👨‍🎓 Student (Registration) management
-- 📚 Book inventory management
-- 📤 Book issue tracking
-- 📥 Book return tracking
-- ⏰ Fine / penalty calculation support
-- 🔗 Foreign key relationships between tables
+- 📅 Employee attendance tracking
+- 👨‍💼 Employee performance analysis
+- 📊 Department-wise performance reports
+- 📈 Attendance trend analysis
+- 🏢 HR operational insights
+- 📉 SQL-based reporting and analysis
 
 ---
 
@@ -27,9 +22,17 @@ It demonstrates database design, relationships, and SQL queries for real-world l
 ---
 
 ## 🗄️ Database Structure
-- reg → Student details
-- lib → Book details
-- transactions → Issue/return records
+- employees → Employee details
+- attendance → Attendance records
+- performance → Employee performance data
+
+---
+
+## 📸 Dashboard Preview
+
+The dashboard images for this project are shown below.
+
+![HR Dashboard](images/screenshot.png)
 
 ---
 
@@ -37,13 +40,14 @@ It demonstrates database design, relationships, and SQL queries for real-world l
 
 1. Open MySQL / SQL Workbench
 2. Create database using queries.sql
-3. Run the SQL script step by step
-4. Check tables and data using SELECT queries
+3. Run SQL queries step by step
+4. Analyze reports using SELECT queries
 
 ---
 
 ## 📁 Project Structure
-Library-Management-System-SQL/
+
+HR-Attendance-and-Employee-Performance-Analysis/
 │── queries.sql
 │── README.md
 │── images/
@@ -51,11 +55,3 @@ Library-Management-System-SQL/
 
 ---
 
-## 📸 Project Preview
-
-![Database Screenshot](images/screenshot.png)
-
----
-
-## ⭐ Note
-This project is created for academic learning to understand SQL database design, relationships, and CRUD operations.
